@@ -1,0 +1,18 @@
+.heading {
+  color: purple;
+}
+
+h4{
+  color:brown;
+}
+p{
+  color:rgb(59, 145, 2)
+}
+ul {
+  color: rgb(8, 8, 124);
+}
+
+.food-img {
+  height: 100px;
+  width: 100px;
+}
