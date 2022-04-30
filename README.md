@@ -21,7 +21,9 @@
 
 ##### Note: `package.json`  is one of the most important file. One of the main purpose is Here you can see all the related dependencies (i.e, modules) node is going to install when *`npm install`* command executed.
 
-## Point to Remember:
+### Point to Remember:
+
+In `ReactDOM.render()` if Multiple html elements or Components are there, they need to be enclosed in either **single jsx fragement** or **single div**
 
   1. JSX single fragment
    
