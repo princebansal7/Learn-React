@@ -25,9 +25,8 @@
 
   1. JSX single fragment
    
-    ```
     <></>
-    ```
+    
   2. Single div
    
    ```
