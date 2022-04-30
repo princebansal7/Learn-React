@@ -16,10 +16,10 @@ ReactDOM.render(
       </li>
       <li>
         We are writing HTML and JS code in single jsx file. But internally JSX
-        is coverting all the code in JS code using babel compiler I guess.
+        is coverting all the code in JS code using babel compiler.
       </li>
       <li>
-        That's why expressions and variables must be enclosed within curley
+        That's why expressions and variables must be enclosed within curly
         braces.
       </li>
     </ul>

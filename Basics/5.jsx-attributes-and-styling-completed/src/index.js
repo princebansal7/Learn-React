@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const imgRandom = "https://picsum.photos/200";
+const imgRandom = "https://picsum.photos/100";
 
 ReactDOM.render(
   <div>
@@ -13,7 +13,7 @@ ReactDOM.render(
       <li>Just like we learnt we used imgRandom in curley braces.</li>
     </ul>
     <h1 className="heading">My Favourite Foods</h1>
-    <img alt="random" src={imgRandom + "?pink"} />
+    <img alt="random" src={imgRandom + "?black"} />
 
     <img
       className="food-img"
