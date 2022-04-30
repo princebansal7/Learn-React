@@ -19,7 +19,7 @@
 
 4. It's done ! Play around with the files and see working.
 
-##### Note: `package.json`  is one of the most important file. One of the main purpose is Here you can see all the related dependencies (i.e, modules) node is going to install when *`npm install`* command executed.
+##### **Note:** `package.json`  is one of the most important file. One of the main purpose is Here you can see all the related dependencies (i.e, modules) node is going to install when *`npm install`* command executed.
 
 ### Point to Remember:
 
