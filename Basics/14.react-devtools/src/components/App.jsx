@@ -1,11 +1,22 @@
 import React from "react";
 import Card from "./Card";
-import contacts from "../contacts";
+import contacts from "../contacts.js";
+
+// 1. In App component => Card component have img property coming from contacts.js
+
+// Let's use Avatar component in App
+import Avatar from "./Avatar";
 
 function App() {
   return (
     <div>
       <h1 className="heading">My Contacts</h1>
+
+      {/* using Avatar compnent */}
+
+      <Avatar image={contacts[0].imgURL} />
+
+      {/* In the next folder we'll see how to shink  (using Mapping) the below code where we repeatatively using contacts[] */}
 
       <Card
         name={contacts[0].name}

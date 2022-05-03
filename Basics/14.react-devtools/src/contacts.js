@@ -1,28 +1,28 @@
+// Here we simply created a JavaScript object's Array.
+// Object have diffrent key value pairs.
+
 const contacts = [
   {
-    id: 1,
-    name: "Beyonce",
+    name: "Prince",
     imgURL:
-      "https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg",
-    phone: "+123 456 789",
-    email: "b@beyonce.com"
+      "https://media-exp1.licdn.com/dms/image/C5603AQED5r3C-lMJXw/profile-displayphoto-shrink_200_200/0/1621027436416?e=1656547200&v=beta&t=1KuiMVovFdaj-BjBQfyDUcAIIDNQm0ofhOQs8A0zuDY",
+    phone: "+123 456 69",
+    email: "prince.bansal008@gmail.com",
   },
   {
-    id: 2,
-    name: "Jack Bauer",
+    name: "Wolvrine",
     imgURL:
-      "https://pbs.twimg.com/profile_images/625247595825246208/X3XLea04_400x400.jpg",
-    phone: "+987 654 321",
-    email: "jack@nowhere.com"
+      "https://img.etimg.com/thumb/msid-69724545,width-200,height-200,imgsize-1032582,overlay-etpanache/photo.jpg",
+    phone: "+7387384587",
+    email: "X-men@Wolvi.com",
   },
   {
-    id: 3,
-    name: "Chuck Norris",
+    name: "Deadpool",
     imgURL:
-      "https://i.pinimg.com/originals/e3/94/47/e39447de921955826b1e498ccf9a39af.png",
-    phone: "+918 372 574",
-    email: "gmail@chucknorris.com"
-  }
+      "https://s167.daydaynews.cc/?url=http%3A%2F%2Finews.gtimg.com%2Fnewsapp_bt%2F0%2F11398745474%2F1000",
+    phone: "+700000087",
+    email: "X-men@Pool.com",
+  },
 ];
 
 export default contacts;

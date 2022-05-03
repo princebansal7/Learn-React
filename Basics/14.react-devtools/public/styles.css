@@ -4,14 +4,14 @@ body {
   padding: 25px;
   max-width: 400px;
   min-width: 400px;
-  background-color: #dfe6e9;
+  background-color: #fddaf0;
   text-align: center;
 }
 
 .heading {
   text-align: center;
   font-size: 2em;
-  color: #2d3436;
+  color: #2f0447;
   margin: 20px 0 30px;
 }
 
@@ -19,10 +19,10 @@ body {
   border-radius: 25px;
   position: relative;
   padding: 25px 15px;
-  background-color: #81ecec;
+  background-color: #f765b5;
   margin: 50px 0;
   height: 200px;
-  box-shadow: 0 2px 5px #ccc;
+  box-shadow: 0 2px 5px rgb(255, 118, 255);
   text-align: left;
 }
 
@@ -30,7 +30,7 @@ body {
   border-radius: 25px 25px 0 0;
   height: 100px;
   width: 100%;
-  background-color: #00cec9;
+  background-color: #eb17b6;
   position: absolute;
   top: 0;
   left: 0;
@@ -39,7 +39,7 @@ body {
 
 .name {
   font-size: 2em;
-  color: #2d3436;
+  color: #dfeff3;
   display: flex;
   flex: 1;
   margin: 10% 20px 0;
@@ -51,7 +51,7 @@ body {
 
 .circle-img {
   border-radius: 50%;
-  border: 7px solid #fff;
+  border: 7px solid rgb(247, 238, 238);
   width: 120px;
   height: 120px;
 }
@@ -62,5 +62,5 @@ body {
 
 .info {
   margin: 20px 0;
-  color: #1a7e76;
+  color: #290322;
 }
