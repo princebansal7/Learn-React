@@ -9,7 +9,7 @@ import Avatar from "./Avatar";
 
 //2. Card se aayi img property props ki help se Avatar ki image property me aayi
 
-// After doing above procedure, so make 2 components for email and phone too
+// After doing above procedure, make 2 components for email and phone too.
 
 import Telephone from "./Telephone";
 import Email from "./Email";
