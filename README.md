@@ -48,8 +48,9 @@ At beginner level you only need to observe two folders.
   in which mainly we'll usually looking at `App.js` file.
 
 ### IN FOLDER-16:
+
  (``16.mapping-component-practice``)<br/>
   we'll be learning about mapping and creating basic ***``emojipedia``*** like this:
 
-<img align="right" alt="emoji-pedia" width="600" src="./Basics/16.mapping-components-practice/src/images/emojipedia.png">
+<img align="right" alt="emoji-pedia" width="1000" src="./Basics/16.mapping-components-practice/src/images/emojipedia.png">
 
