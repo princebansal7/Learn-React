@@ -2,11 +2,20 @@ import React from "react";
 import Card from "./Card";
 import contact from "../contacts.js";
 
-// Now We'll use mapping concept to shink this contact[]  array repeatative code
-// 1.contacts.map() => map() function loops through the whole contact array and pass it's element one by one to the inside function
-// 2. conacts.map(createCard) => map() passes elements to 'createCard' function made by Us.
-// 3. Card components is being rendered using a loop type function (map), so react create virtual DOM for us,
-//    for efficient use it need to have unique id propertuy & this poperty must be called 'key'.
+/*
+
+    Now We'll use mapping concept to shink this contact[]  array repeatative code
+    1.contacts.map() => map() function loops through the whole contact array and pass it's element one by one to the inside function
+    2. conacts.map(createCard) => map() passes elements to 'createCard' function made by Us.
+    3. Card components is being rendered using a loop type function (map), so react create virtual DOM for us,
+      for efficient use it need to have unique id propertuy & this poperty must be called 'key'.
+
+      NOTE:
+             In that array where map() loops through, there must be a unique key present, which we get using 
+            'key'. It is not for us, it basically for react, so that it can maintain the dom tree structure
+             and render components efficiently.
+
+*/
 
 function createCard(contact) {
   return (
