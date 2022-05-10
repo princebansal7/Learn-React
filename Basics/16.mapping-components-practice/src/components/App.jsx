@@ -16,7 +16,7 @@ import Emojis from "../emojipedia.js";
                  creating it seperatly) one by one through each of it's elements.
               b) map() takes a function argument (in this case 'createEntry' function) & passes those array
                  elements to this function.
-             c) Now using this createEntry(), we can modify our component without wrting them again and again
+              c) Now using this createEntry(), we can modify our component without wrting them again and again
                 as shown in below Example.
                 
             NOTE:
