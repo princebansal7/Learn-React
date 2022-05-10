@@ -4,7 +4,7 @@ import contact from "../contacts.js";
 
 /*
 
-    Now We'll use mapping concept to shink this contact[]  array repeatative code
+    Now We'll use mapping concept to shink this contact[]  array repetative code
     1.contacts.map() => map() function loops through the whole contact array and pass it's element one by one to the inside function
     2. conacts.map(createCard) => map() passes elements to 'createCard' function made by Us.
     3. Card components is being rendered using a loop type function (map), so react create virtual DOM for us,
@@ -36,7 +36,7 @@ function App() {
     <div>
       <h1 className="heading">My Contacts</h1>
 
-      {/* We are using map() and our createCard function to avoid repeatative code */}
+      {/* We are using map() and our createCard function to avoid repetative code */}
 
       {contact.map(createCard)}
 

@@ -5,7 +5,7 @@ import Emojis from "../emojipedia.js";
 /*                                   TASKS                              
     1. Create Entry Component
     2. Create props to contain HardCoded data
-    3. To avoid writing repeatative code => use map()
+    3. To avoid writing repetative code => use map()
     => map through the emojipedia array and render Entry component.
                           
                                   UNDERSTANDING
@@ -50,7 +50,7 @@ function App() {
         {Emojis.map(createEntry)}
 
         {/*======= WAY-2=====================================================================================
-         (writing multiple components acc to need, but at some point it becomes repeatative too) */}
+         (writing multiple components acc to need, but at some point it becomes repetative too) */}
 
         {/*
          <Entry
