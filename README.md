@@ -40,7 +40,7 @@
     ```
     <div></div>
     ```
-- React version 18 and above doesn't support ``ReactDOM.render()``, so now it's been done using ``createRoot()``
+- React version 18 and above doesn't support ``ReactDOM.render()``, so now it's done using ``createRoot()``
 - React newer version implementation is done from folder-16 (main changes will be done only in ``index.js``)
 
 - **Let's Understand the FOLDER STRUCTURE:**
