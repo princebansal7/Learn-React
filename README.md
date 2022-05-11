@@ -25,9 +25,9 @@
 
 <br>
 
-### Point to Remember:
+### Points to Remember:
 
-In `ReactDOM.render()` if Multiple html elements or Components are there, they need to be enclosed in either **single jsx fragement** or **single div**
+- In `ReactDOM.render()` if Multiple html elements or Components are there, they need to be enclosed in either **single jsx fragement** or **single div**
 
   1. JSX single fragment
 
@@ -38,20 +38,22 @@ In `ReactDOM.render()` if Multiple html elements or Components are there, they n
    ```
    <div></div>
    ```
+- React version 18 and above doesn't support ``ReactDOM.render()``, so now it's been done using ``createRoot()``
+- React newer version implementation is done from folder-16 (main changes will be done only in ``index.js``)
 
-### Let's Understand the FOLDER STRUCTURE:
+- **Let's Understand the FOLDER STRUCTURE:**
 
-At beginner level you only need to observe two folders.
+  At beginner level you only need to observe two folders
+  `public`  and `src`
 
-`public`  and `src`
+    - **public**: folder will be having the main file called ***index.html***
+    and in that file `<div=class="root">` is where we will be rendering all of our react code using react and react-dom Modules.
 
-**public**: folder will be having the main file called ***index.html***
- and in that file `<div=class="root">` is where we will be rendering all of our react code using react and react-dom Modules.
+   - **src** : folder will be having all the related react components ***(jsx, js files)***.
+      in which mainly we'll usually looking at `App.js` file.<br>
 
- **src** : folder will be having all the related react components ***(jsx, js files)***.
-  in which mainly we'll usually looking at `App.js` file.<br>
+- **In Folder-16 (``16.mapping-component-practice``):**
+  
+    We'll be learning about mapping and creating basic ***``emojipedia``*** like this:
 
-### IN FOLDER-16 (``16.mapping-component-practice``): <br/>
-  we'll be learning about mapping and creating basic ***``emojipedia``*** like this:
-
-<img align="right" alt="emoji-pedia" width="800" src="./Basics/16.mapping-components-practice/src/images/emojipedia.png">
+  <img align="right" alt="emoji-pedia" width="800" src="./Basics/16.mapping-components-practice/src/images/emojipedia.png">
