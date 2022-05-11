@@ -46,7 +46,7 @@
   At beginner level you only need to observe two folders
   `public`  and `src`
 
-    - **public**: folder will be having the main file called ***index.html***
+    - **public** : folder will be having the main file called ***index.html***
     and in that file `<div=class="root">` is where we will be rendering all of our react code using react and react-dom Modules.
 
    - **src** : folder will be having all the related react components ***(jsx, js files)***.
