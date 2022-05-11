@@ -2,7 +2,7 @@
 
 #### *Anyone can Understand the folder structure and working of JSX and React from it*
 
-### To use these folders locally:
+### 1. To use these folders locally:
 
 ##### (PS: *node js* must be install on your system!)
 
@@ -25,19 +25,21 @@
 
 <br>
 
-### Points to Remember:
+### 2. Points to Remember:
 
 - In `ReactDOM.render()` if Multiple html elements or Components are there, they need to be enclosed in either **single jsx fragement** or **single div**
 
-  1. JSX single fragment
+  - JSX single fragment
 
-    <></>
+    ```
+      <> </>
+      ```
 
-  2. Single div
+  - Single div
 
-   ```
-   <div></div>
-   ```
+    ```
+    <div></div>
+    ```
 - React version 18 and above doesn't support ``ReactDOM.render()``, so now it's been done using ``createRoot()``
 - React newer version implementation is done from folder-16 (main changes will be done only in ``index.js``)
 
@@ -56,4 +58,4 @@
   
     We'll be learning about mapping and creating basic ***``emojipedia``*** like this:
 
-  <img align="right" alt="emoji-pedia" width="800" src="./Basics/16.mapping-components-practice/src/images/emojipedia.png">
+  <img align="right" alt="emoji-pedia" width="700" src="./Basics/16.mapping-components-practice/src/images/emojipedia.png">
