@@ -1,6 +1,6 @@
 # Learning React From Basics
 
-### *Anyone can Understand the folder structure and working of JSX and React from it*
+#### *Anyone can Understand the folder structure and working of JSX and React from it*
 
 ### To use these folders locally:
 
