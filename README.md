@@ -58,4 +58,4 @@
   
     We'll be learning about mapping and creating basic ***``emojipedia``*** like this:
 
-  <img align="right" alt="emoji-pedia" width="800" src="./Basics/16.mapping-components-practice/src/images/emojipedia.png">
+  <img align="right" alt="emoji-pedia" height="200" width="800" src="./Basics/16.mapping-components-practice/src/images/emojipedia.png">
