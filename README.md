@@ -41,7 +41,25 @@
     <div></div>
     ```
 - React version 18 and above doesn't support ``ReactDOM.render()``, so now it's done using ``createRoot()`` after importing ``import ReactDOM from "react-dom/client";``
-- React newer version implementation is done from folder-16 (main changes will be done only in ``index.js``)
+  
+  - Old way:
+    ```
+    import React from "react";
+    import ReactDOM from "react-dom";
+    import App from "./components/App";
+
+    ReactDOM.render(<App />, document.getElementById("root"));
+    ```
+  - New way:
+      ```
+      import React from "react";
+      import ReactDOM from "react-dom/client";
+      import App from "./components/App";
+
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(<App />);
+      ```
+- React newer version implementation is done from folder-15 (main changes will be done only in ``index.js``)
 
 - **Let's Understand the FOLDER STRUCTURE:**
 
