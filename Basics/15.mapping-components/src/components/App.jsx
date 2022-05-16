@@ -17,16 +17,16 @@ import contact from "../contacts.js";
 
 */
 
-function createCard(contact) {
+function createCard(contactObj) {
   return (
     // Unique id property called 'key' (must)
     <Card
-      key={contact.id} // we can't access this as props , we have to make seperately
-      id={contact.id} // we can access this
-      name={contact.name}
-      img={contact.imgURL}
-      tel={contact.phone}
-      email={contact.email}
+      key={contactObj.id} // we can't access this as props , we have to make seperately
+      id={contactObj.id} // we can access this
+      name={contactObj.name}
+      img={contactObj.imgURL}
+      tel={contactObj.phone}
+      email={contactObj.email}
     />
   );
 }
@@ -36,9 +36,12 @@ function App() {
     <div>
       <h1 className="heading">My Contacts</h1>
 
+      {/* WAY-2 (New Way) */}
       {/* We are using map() and our createCard function to avoid repetative code */}
 
       {contact.map(createCard)}
+
+      {/* WAY-1 (old Way) */}
 
       {/* <Card
         name={contact[0].name}

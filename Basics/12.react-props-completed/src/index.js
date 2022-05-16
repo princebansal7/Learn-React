@@ -24,7 +24,7 @@ function Card(props) {
 
   But in <Card/> we can use any name as attribute.
 
- This Code is repetative and Long. We will see in next folder (13) how we can make it more readable using components and Props
+  This Code is repetative and Long. We will see in next folder (13) how we can make it more readable using components and Props
 */
 
 /* 
@@ -34,7 +34,7 @@ we can't apply className="my-style" in Custom component like:
       name="Prince"
       img="https://media-exp1.licdn.com/dms/image/C5603AQED5r3C-lMJXw/profile-displayphoto-shrink_200_200/0/1621027436416?e=1656547200&v=beta&t=1KuiMVovFdaj-BjBQfyDUcAIIDNQm0ofhOQs8A0zuDY"
       tel="+123 456 789"
-      email="b@prince.com"
+      email="M@prince.com"
     />
     It won't work !! as it sees it as props and not as an html attribute
 */
