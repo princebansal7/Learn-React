@@ -44,12 +44,34 @@ function App() {
       </h1>
 
       <dl className="dictionary">
-        {/*========WAY-3 (using map) =======================================================================
+        {/*========WAY-4 (using map) =======================================================================
         => using, map doing in just 1 line */}
-
 
         {Emojis.map(createEntry)}
 
+        {/*========WAY-3 (using array) =======================================================================
+        
+        Just Like we saw in previous folder*/}
+
+        {/* <Entry
+          emj={Emojis[0].emoji}
+          name={Emojis[0].name}
+          means={Emojis[0.means}
+        />
+
+        <Entry
+          emj={Emojis[1].emoji}
+          name={Emojis[1].name}
+          means={Emojis[1].means}
+        />
+
+        <Entry
+          emj={Emojis[2].emoji}
+          name={Emojis[2].name}
+          means={Emojis[2].means}
+        />
+        ..........
+        .......... */}
 
         {/*======= WAY-2=====================================================================================
          (writing multiple components acc to need, but at some point it becomes repetative too) */}
