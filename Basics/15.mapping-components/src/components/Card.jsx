@@ -11,7 +11,7 @@ function Card(props) {
         <p>{props.key}</p>
 
         {/* So, we can use another prop name as we made 'id' in Card  */}
-        <p>{props.id}</p>
+        <p>{props.unique}</p>
         <h2 className="name">{props.name}</h2>
 
         <Avatar image={props.img} />

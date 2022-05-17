@@ -47,7 +47,9 @@ function App() {
         {/*========WAY-3 (using map) =======================================================================
         => using, map doing in just 1 line */}
 
+
         {Emojis.map(createEntry)}
+
 
         {/*======= WAY-2=====================================================================================
          (writing multiple components acc to need, but at some point it becomes repetative too) */}

@@ -4,11 +4,11 @@ import contact from "../contacts.js";
 
 /*
 
-    Now We'll use mapping concept to shink this contact[]  array repetative code
-    1.contacts.map() => map() function loops through the whole contact array and pass it's element one by one to the inside function
+    Now We'll use mapping concept to shink this contact[] array repetative code
+    1. contacts.map() => map() function loops through the whole contact array and pass it's element one by one to the inside function
     2. conacts.map(createCard) => map() passes elements to 'createCard' function made by Us.
     3. Card components is being rendered using a loop type function (map), so react create virtual DOM for us,
-      for efficient use it need to have unique id propertuy & this poperty must be called 'key'.
+      for efficient use it need to have unique id property & this poperty must be called 'key'.
 
       NOTE:
              In that array where map() loops through, there must be a unique key present, which we get using 
@@ -22,7 +22,7 @@ function createCard(contactObj) {
     // Unique id property called 'key' (must)
     <Card
       key={contactObj.id} // we can't access this as props , we have to make seperately
-      id={contactObj.id} // we can access this
+      unique={contactObj.id} // we can access this
       name={contactObj.name}
       img={contactObj.imgURL}
       tel={contactObj.phone}
