@@ -1,4 +1,4 @@
 {
-    "editor.fontFamily": "'Cascadia Code','Monaco','Fira Code','Monospace','SF Pro Display','Consolas', 'Courier New'",
+    "editor.fontFamily": "'Fira Code','Cascadia Code','Monaco','Monospace','SF Pro Display','Consolas', 'Courier New'",
     "editor.fontLigatures": true,
 }
