@@ -16,7 +16,8 @@ function unStrike() {
 // Declarative style code (This will not work)
 // => this doesn't work beacause, elements are being rendered so they are not changable
 //    they have to re-render on the screen in order to get changes in their properties to be seen
-// for this we'll learn "HOOKS"
+
+// for this we'll learn "HOOKS" => they are functions that allow us to hook into state of app and read & modify it
 
 // function strike() {
 //   isDone = true;
