@@ -76,4 +76,12 @@
   
     We'll be learning about mapping and creating basic ***``emojipedia``*** like this:
 
-  <img align="right" alt="emoji-pedia" width="800" src="./Basics/16.mapping-components-practice/src/images/emojipedia.png">
+  <img align="right" alt="emoji-pedia" width="800" src="./images/emojipedia.png">
+
+- **In Folder-22 (``22.usestate-hook``):**
+    
+    We'll learn about states and there we'll explore the concept of *ES6 JavaScript Destructuring array.*
+
+    sample snap:
+
+    <img align="right" alt="emoji-pedia" width="800" src="./images/DestructuringArrayES6.png">
