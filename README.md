@@ -84,4 +84,4 @@
 
     sample snap:
 
-    <img align="right" alt="emoji-pedia" width="100" src="./images/DestructuringArrayES6.png">
+    <img align="right" alt="emoji-pedia" width="500" src="./images/DestructuringArrayES6.png">
