@@ -6,33 +6,38 @@
 
 ##### (PS: *node js* must be install on your system!)
 
-1. Open any of the subfolder in terminal
-2. Give Command
+1. Go to **Basics** folder, there are ordered sub-folders for learning essential concepts of React.
+2. Now open that particular subfolder *(you want to learn)* in terminal *(preferably VS code)*
+    
+   eg: ``$Downloads/Basics/1.introduction-to-jsx/``
+3. Then give command
 
     ```
     npm install
     ```
 
-3. Then
+4. Then
 
     ```
     npm start
     ```  
 
-4. It's done ! Play around with the files and see working.
+5. It's done ! Play around with the files and see working.
 
-##### **Note:** `package.json`  is one of the most important file. One of the main purpose is Here you can see all the related dependencies (i.e, modules) node is going to install when *`npm install`* command executed
+#### **Note:** `package.json`  is one of the most important file. As one of the main purpose is Here you can see all the related dependencies (i.e, modules) which **node** is going to install when **`npm install`** command executed
 
 <br>
 
 ### 2. Points to Remember:
 
-- In `ReactDOM.render()` if Multiple html elements or Components are there, they need to be enclosed in either **single jsx fragement** or **single div**
+- In `ReactDOM.render()` if Multiple html elements or Components are there, they need to be enclosed in either **jsx fragement** or **single div**
 
-  - JSX single fragment
+  - JSX fragments
 
     ```html
-      <> </>
+      <React.Fragment></React.Fragment>
+
+      <></>
       ```
 
   - Single div
