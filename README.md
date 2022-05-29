@@ -39,7 +39,7 @@
     and in that file `<div class="root">` is where React will be rendering all of the code using `react` and `react-dom` Modules.
 
    - **`src`** : folder will be having all the related react components ***(jsx, js files)***.
-      in which mainly we'll be looking at **App.js** file and **index.js** file (starting point of project)<br>
+      in which mainly we'll be looking at *App.js* file and *index.js* file (starting point of project)<br>
    - Further addition of related files and functional components, we will be learning as we go folder-by-folder in order.
    - Still majorly all the components (functional or class based) they usually resides in `components` folder which we keep inside `src` folder.
 - `ReactDOM.render()` or Any Component in React returns only a single html element.
