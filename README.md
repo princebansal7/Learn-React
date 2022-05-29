@@ -30,7 +30,20 @@
 
 ### 2. Points to Remember:
 
-- In `ReactDOM.render()` if Multiple html elements or Components are there, they need to be enclosed in either **jsx fragement** or **single div**
+- **Let's Understand the FOLDER STRUCTURE:**
+
+  At beginner level you only need to observe two folders
+  `public`  and `src`
+
+    - **public** : folder will be having the main file called ***index.html***
+    and in that file `<div class="root">` is where React will be rendering all of the code using `react` and `react-dom` Modules.
+
+   - **src** : folder will be having all the related react components ***(jsx, js files)***.
+      in which mainly we'll be looking at `App.js` file and `index.js` file (starting point of project)<br>
+   - Further addition of related files and functional components, we will be learning as we go folder-by-folder in order.
+   - Still majorly all the components (functional or class based) they usually resides in `components` folder which we keep inside `src` folder.
+- `ReactDOM.render()` or Any Component in React returns only a single html element.
+- if Multiple html elements or Components are there to be returned, they need to be enclosed in either **jsx fragement** or **single div**
 
   - JSX fragments
 
@@ -66,16 +79,6 @@
       ```
 - React newer version implementation is done from folder-15 (main changes will be done only in ``index.js``)
 
-- **Let's Understand the FOLDER STRUCTURE:**
-
-  At beginner level you only need to observe two folders
-  `public`  and `src`
-
-    - **public** : folder will be having the main file called ***index.html***
-    and in that file `<div=class="root">` is where we will be rendering all of our react code using react and react-dom Modules.
-
-   - **src** : folder will be having all the related react components ***(jsx, js files)***.
-      in which mainly we'll usually looking at `App.js` file.<br>
 
 - **In Folder-16 (``16.mapping-component-practice``):**
   
