@@ -31,19 +31,19 @@
 
   - JSX single fragment
 
-    ```
+    ```html
       <> </>
       ```
 
   - Single div
 
-    ```
+    ```html
     <div></div>
     ```
 - React version 18 and above doesn't support ``ReactDOM.render()``, so now it's done using ``createRoot()`` after importing ``import ReactDOM from "react-dom/client";``
   
   - Old way:
-    ```
+    ```jsx
     import React from "react";
     import ReactDOM from "react-dom";
     import App from "./components/App";
@@ -51,7 +51,7 @@
     ReactDOM.render(<App />, document.getElementById("root"));
     ```
   - New way:
-      ```
+      ```jsx
       import React from "react";
       import ReactDOM from "react-dom/client";
       import App from "./components/App";
@@ -86,3 +86,17 @@
     sample snap:
 
     <img align="left" alt="emoji-pedia" width="600" src="./images/DestructuringArrayES6.png">
+      &nbsp
+
+ - When we pass function as arugumet then don't use   paranthesis with function_name, just simply write function_name, eg:
+      ```js
+      function update(){
+        .....
+        .....
+      }
+
+      setInterval(update(),1000); // Won't work
+
+      setInterval(update,1000); // Works fine
+      ```
+  
