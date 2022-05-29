@@ -86,8 +86,7 @@
     sample snap:
 
     <img align="left" alt="emoji-pedia" width="600" src="./images/DestructuringArrayES6.png">
-      &nbsp
-
+    &nbsp
  - When we pass function as arugumet then don't use   paranthesis with function_name, just simply write function_name, eg:
       ```js
       function update(){
