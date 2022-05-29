@@ -2,9 +2,9 @@
 
 #### *Anyone can understand the folder structure and working of JSX and React from it*
 
+##### PS: *`Node.js`* must be installed on your system!!
 ### 1. To use these folders locally:
 
-##### PS: *`Node.js`* must be installed on your system!!
 
 1. After downloading this Repo go to **Basics** folder, there are ordered sub-folders for learning essential concepts of React.
 2. Now open that particular subfolder *(you want to learn)* in terminal *(preferably VS code)*
@@ -28,7 +28,7 @@
 
 <br>
 
-### 2. Points to Remember:
+### 2. Key Points:
 
 - **Let's Understand the FOLDER STRUCTURE:**
 
@@ -77,17 +77,17 @@
       const root = ReactDOM.createRoot(document.getElementById("root"));
       root.render(<App />);
       ```
-- React newer version implementation is done from folder-15 (main changes will be done only in ``index.js``)
+- React newer version implementation starts from folder-15 (main changes will be done only in ``index.js``)
 
 
-- **In Folder-16 (``16.mapping-component-practice``):**
+- **In Folder-16:**
   
-    We'll be learning about mapping and creating basic ***``emojipedia``*** like this:
+    We'll be learning about **mapping** and creating basic ***``emojipedia``*** like this:
 
   <img align="right" alt="emoji-pedia" width="800" src="./images/emojipedia.png">
   &nbsp 
 
-- **In Folder-22 (``22.usestate-hook``):**
+- **In Folder-22:**
     
     We'll learn about states and there we'll explore the concept of *ES6 JavaScript Destructuring array.*
 
@@ -98,7 +98,7 @@
     sample snap:
     
     
-    <img align="center" alt="ES6-Destructuing" width="600" src="./images/DestructuringArrayES6.png">
+    <img align="center" alt="ES6-Destructuing" width="400" src="./images/DestructuringArrayES6.png">
     
 
  - When we pass function as arugumet in another function or anywhere I guess then don't use paranthesis with function_name, just simply write function_name,
