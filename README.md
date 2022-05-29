@@ -83,12 +83,13 @@
     
     We'll learn about states and there we'll explore the concept of *ES6 JavaScript Destructuring array.*
 
-    sample snap:
 
+    Here is the reference <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment" target="_blank">Link</a>
+    
+
+    sample snap:
     <img align="center" alt="ES6-Destructuing" width="600" src="./images/DestructuringArrayES6.png">
-    &nbsp
-    here is the reference <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment" target="_blank">Link</a>
-    &nbsp
+    
 
  - When we pass function as arugumet in another function or anywhere I guess then don't use paranthesis with function_name, just simply write function_name,
   
