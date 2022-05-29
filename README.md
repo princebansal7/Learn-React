@@ -88,6 +88,8 @@
     
 
     sample snap:
+    
+    
     <img align="center" alt="ES6-Destructuing" width="600" src="./images/DestructuringArrayES6.png">
     
 
