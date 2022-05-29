@@ -24,7 +24,8 @@
 
 5. It's done ! Play around with the files and see working.
 
-#### **Note:** `package.json`  is one of the most important file. As one of the main purpose is Here you can see all the related dependencies (i.e, modules) which **node** is going to install when **`npm install`** command executed
+#### **Note:** `package.json`  is one of the most important file. As one of the main purpose is Here you can see all the related dependencies & modules which **node** is going to install.
+#### Also **`npm install`** command uses this `package.json` to download the essential modules and related dependencies to run React project.
 
 <br>
 
