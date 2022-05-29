@@ -6,7 +6,7 @@
 
 ##### PS: *`Node.js`* must be installed on your system!!
 
-1. Go to **Basics** folder, there are ordered sub-folders for learning essential concepts of React.
+1. After downloading this Repo go to **Basics** folder, there are ordered sub-folders for learning essential concepts of React.
 2. Now open that particular subfolder *(you want to learn)* in terminal *(preferably VS code)*
     
    eg: `$ Downloads/Basics/1.introduction-to-jsx/`
