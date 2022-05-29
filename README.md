@@ -4,7 +4,7 @@
 
 ### 1. To use these folders locally:
 
-##### (PS: *node js* must be installed on your system!)
+##### PS: *node js* must be installed on your system!!
 
 1. Go to **Basics** folder, there are ordered sub-folders for learning essential concepts of React.
 2. Now open that particular subfolder *(you want to learn)* in terminal *(preferably VS code)*
