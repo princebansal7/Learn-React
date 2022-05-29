@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import animals from "./data";
+import animals, { useAnimals } from "./data";
 import cars from "./practice";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -130,18 +130,49 @@ console.log(water);
 // NOTE: we can destructure particilar properties only too if we want
 eg: const {feedingRequirement: { food, water } } = cat;
 
+
+//----- Learning how to set state and how useState() works: (implementation in data.js)-----------------
+
+const [cat, dog] = animals;
+
+// we know useAnimals() will return array => can destructure it
+
+const [animalName, makeSoundFxn] = useAnimals(cat); // useAnimals() is in data.js
+console.log(animalName); // cat
+makeSoundFxn(); // meaow
+
 */
 
-//---------------------------------------------------------------------
 
-// CHALLENGE: uncomment the code below and see the car stats rendered
 
-const [model, coloursByPopularity, speedStats] = cars;
-const { topSpeed, zeroToSixty } = speedStats;
 
-console.log(model);
-console.log(coloursByPopularity);
-console.log(speedStats);
+//==========================================================================================================
+
+// CHALLENGE: Make sure without changing the code the car stats rendered correctly (Done)
+
+console.log(cars);
+
+const [honda,tesla] = cars; // getting array object elements as 'honda', 'tesla' object
+
+// now, 'honda' , 'tesla' have diffrent properties as nested array and objects
+console.log(honda);
+console.log(tesla);
+
+// further destructuring 'honda', 'tesla' object
+
+const { speedStats:{ topSpeed:hondaTopSpeed, zeroToSixty} } = honda; // we renamed the nested property as per code requirement
+const { speedStats:{ topSpeed:teslaTopSpeed} } = tesla;
+
+// similarly destructuring nested color array in 'honda', 'tesla' objects
+
+const {coloursByPopularity: [hondaTopColour]} = honda;  // from honda object we accessed 'colorsByPopularity' array propert, then by destructuring 1st value accessed and renamed as per code
+
+const {coloursByPopularity: [teslaTopColour]} = tesla;
+
+
+
+// Below code shouldn't change
+
 
 root.render(
   <table>

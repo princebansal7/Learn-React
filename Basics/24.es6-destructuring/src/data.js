@@ -20,4 +20,16 @@ const animals = [
   },
 ];
 
+//----- learning setState()-----------
+
+function useAnimals(animalObj) {
+  return [
+    animalObj.name,
+    function () {
+      console.log(animalObj.sound);
+    },
+  ];
+}
+
 export default animals;
+export { useAnimals };
