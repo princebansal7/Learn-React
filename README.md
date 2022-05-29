@@ -89,7 +89,9 @@
     &nbsp
     &nbsp
 
- - When we pass function as arugumet then don't use   paranthesis with function_name, just simply write function_name, eg:
+ - When we pass function as arugumet in another function or anywhere I guess then don't use paranthesis with function_name, just simply write function_name,
+  
+   eg:
       ```js
       function update(){
         .....
