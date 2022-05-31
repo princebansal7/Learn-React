@@ -45,11 +45,11 @@ console.log(sound); // without destructuring, we would've done like: animals[0].
 // const [any_name,....]
 // In Objects:
 // const [name_same_as_Object_key,.....]
-eg: we know
-    const cat: {
-      name: string;         ===>   const { name, sound } = cat; (name, sound as same key of obeject otherwise gives 'undefined' value)
-      sound: string;
-   }
+// eg: we know
+//     const cat: {
+//       name: string;         ===>   const { name, sound } = cat; (name, sound as same key of obeject otherwise gives 'undefined' value)
+//       sound: string;
+//    }
 
 // Way-2 (Giving different name from object key)
 
