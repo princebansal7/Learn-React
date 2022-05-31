@@ -11,15 +11,15 @@ console.log(animals); // animals array have two objects
 
 // 1. Destructuring Array (& getting both array elements)-----------------------------------------
 
-const [cat, dog] = animals;
-from animals array: 1st element being assigned name 'cat'
-                    2nd element being assigned name 'dog'  => we got hold of objects individually
+// const [cat, dog] = animals;
+// from animals array: 1st element being assigned name 'cat'
+//                     2nd element being assigned name 'dog'  => we got hold of objects individually
 
 console.log(cat);
 console.log(dog);
 
-During destructing, names should be unique otherwise will give error (like 'cat', 'dog' is treated as variables so
-shouldn't match with others in program)
+// During destructing, names should be unique otherwise will give error (like 'cat', 'dog' is treated as variables so
+// shouldn't match with others in program)
 
 const [cat, dog] = animals; // it is same as:
 var cat = animals[0];
@@ -143,16 +143,13 @@ makeSoundFxn(); // meaow
 
 */
 
-
-
-
 //==========================================================================================================
 
 // CHALLENGE: Make sure without changing the code the car stats rendered correctly (Done)
 
 console.log(cars);
 
-const [honda,tesla] = cars; // getting array object elements as 'honda', 'tesla' object
+const [honda, tesla] = cars; // getting array object elements as 'honda', 'tesla' object
 
 // now, 'honda' , 'tesla' have diffrent properties as nested array and objects
 console.log(honda);
@@ -160,19 +157,24 @@ console.log(tesla);
 
 // further destructuring 'honda', 'tesla' object
 
-const { speedStats:{ topSpeed:hondaTopSpeed, zeroToSixty} } = honda; // we renamed the nested property as per code requirement
-const { speedStats:{ topSpeed:teslaTopSpeed} } = tesla;
+const {
+  speedStats: { topSpeed: hondaTopSpeed, zeroToSixty },
+} = honda; // we renamed the nested property as per code requirement
+const {
+  speedStats: { topSpeed: teslaTopSpeed },
+} = tesla;
 
 // similarly destructuring nested color array in 'honda', 'tesla' objects
 
-const {coloursByPopularity: [hondaTopColour]} = honda;  // from honda object we accessed 'colorsByPopularity' array propert, then by destructuring 1st value accessed and renamed as per code
+const {
+  coloursByPopularity: [hondaTopColour],
+} = honda; // from honda object we accessed 'colorsByPopularity' array propert, then by destructuring 1st value accessed and renamed as per code
 
-const {coloursByPopularity: [teslaTopColour]} = tesla;
-
-
+const {
+  coloursByPopularity: [teslaTopColour],
+} = tesla;
 
 // Below code shouldn't change
-
 
 root.render(
   <table>
