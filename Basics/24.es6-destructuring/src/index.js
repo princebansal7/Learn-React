@@ -18,14 +18,14 @@ console.log(animals); // animals array have two objects
 console.log(cat);
 console.log(dog);
 
-// During destructing, names should be unique otherwise will give error (like 'cat', 'dog' is treated as variables so
+// During Destructuring, names should be unique otherwise will give error (like 'cat', 'dog' is treated as variables so
 // shouldn't match with others in program)
 
 const [cat, dog] = animals; // it is same as:
 var cat = animals[0];
 var dog = animals[1];
 
-// 2. Destructing Objects----------------------------------------------------------------------------
+// 2. Destructuring Objects----------------------------------------------------------------------------
 
 // We previously got cat, dog as objects after destructuring
 
@@ -40,7 +40,7 @@ const { name, sound } = cat; // from cat object we got it's both properties in v
 console.log(name);
 console.log(sound); // without destructuring, we would've done like: animals[0].sound; (bad practice)
 
-// NOTE: There is difference b/w destructuing Objects and Array
+// NOTE: There is difference b/w Destructuring Objects and Array
 // In Array :
 // const [any_name,....]
 // In Objects:
