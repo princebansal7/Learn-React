@@ -63,7 +63,8 @@ console.log(dogSound);
 // Providing default value:
 
 const { name = "lion", sound = "roar" } = cat;
-right now 'cat' object have:
+
+// right now 'cat' object have:
 // const cat: {
 //     name: string;
 //     sound: string;
