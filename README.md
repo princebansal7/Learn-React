@@ -3,7 +3,7 @@
 #### *Anyone can understand the folder structure and working of JSX and React from it*
 
 ##### PS: *`Node.js`* must be installed on your system!!
-- ##### Here is the link for `nvm` commands: <a href="https://github.com/princebansal7/Learn-JavaScript#readme" target="_blank">JS-princebansal_</a>
+- ##### Here is the link for `nvm` commands: <a href="https://github.com/princebansal7/Learn-JavaScript#readme" target="_blank">princebansal_</a>
 ### 1. To use these folders locally:
 
 
