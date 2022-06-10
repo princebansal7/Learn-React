@@ -41,3 +41,7 @@ function App() {
 }
 
 export default App;
+
+// We didn't make seperate componnets, and all of the work gets done in single App componnets
+// this is not the usual way to work in react
+// In the next module, we'll make seperate componnets and learn how to manage them
