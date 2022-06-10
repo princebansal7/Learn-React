@@ -14,22 +14,22 @@ const sourFruits = ["lemon", "orange", "AaluBukhara"];
 
 // const fruits = ["Banana", "Apple", "Cheeku"];
 
-// Now Let's say we want to add all of the contents of sourFruits array in fruits array in the end.
+// Now Let's say we want to add all of the contents of sourFruits array in fruits array at the end.
 // one way is individually pushing the array elements in required array
 // another better way is:
 // Using ES6 spread Operator:  "..."
 // eg:  [1,2,3, ...ArrayName]
-// These three dots are spread operator followed by array name which you want to expand
+// These three dots are spread operator followed by array name which you want to expand in required array
 // eg:
 
 // const fruits = ["Banana", "Apple", "Cheeku", ...sourFruits];
 // console.log(fruits);
 
-// So, what this spread operator does is, it took the sourFruits array and Expanded it or spread it
-// to individual items, and added those individual items to that specified position where we added
-// spread operator
+// So, what this spread operator does is, it took the sourFruits array and Expands it or spread it
+// to individual items, and adds those individual items to that specified position in the required
+// array where we added spread operator
 
-// => we can change positions too.
+// => we can change positions too. (check outputs on console after uncommenting)
 
 //eg1:
 // const fruits = ["Banana", "Apple", ...sourFruits, "Cheeku"];
