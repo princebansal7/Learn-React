@@ -69,4 +69,9 @@ function App() {
   );
 }
 
+/*
+NOTE:
+As you can see, above code is very lengthy, we can shorten it by using Javascript ES6 spread operator.
+which we will learn in next module.
+*/
 export default App;
