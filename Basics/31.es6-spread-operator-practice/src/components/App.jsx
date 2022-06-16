@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function App() {
   const [inputText, setInputText] = useState(""); // for saving the input states and updaing it
-  const [listItems, setListIterms] = useState([]); // for saving the input in array
+  const [listItems, setListItems] = useState([]); // for saving the input in array
 
   function handleChnage(event) {
     const newValue = event.target.value;
@@ -10,7 +10,7 @@ function App() {
   }
 
   function addTodoItem() {
-    setListIterms((oldItems) => {
+    setListItems((oldItems) => {
       return [...oldItems, inputText];
     });
     setInputText(""); // After adding input setting to the input field empty again
