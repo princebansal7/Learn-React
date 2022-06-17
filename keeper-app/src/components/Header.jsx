@@ -3,7 +3,9 @@ import React from "react";
 function Heading() {
   return (
     <header>
-      <h1>KeePer</h1>
+      <h1>
+        <b>KeePer</b>
+      </h1>
     </header>
   );
 }
