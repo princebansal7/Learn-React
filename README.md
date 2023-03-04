@@ -3,7 +3,7 @@
 #### *Anyone can understand the folder structure and working of JSX and React from it*
 
 ##### PS: *`Node.js`* must be installed on your system!!
-- ##### Here is the link for `nvm` commands: <a href="https://github.com/princebansal7/Learn-JavaScript#readme" target="_blank">princebansal_</a>
+- ##### Here is the link for `nvm` commands: <a href="https://github.com/princebansal7/Learn-JavaScript#readme" target="_blank">click</a>
 ### 1. To use these folders locally:
 
 
@@ -11,7 +11,7 @@
 2. Now open that particular subfolder *(you want to learn)* in terminal *(preferably VS code)*
     
    eg: `$ Downloads/Basics/1.introduction-to-jsx/`
-3. Then give command
+3. Then use command to install node_modules
 
     ```
     npm install
@@ -25,7 +25,24 @@
 
 5. It's done ! Play around with the files. I've added brief comments for everything in orderely manner.
 
+6. **node_modules** folder takes a lot of space, so to remove this folder use the below commands, it will locate *node_modules* folder recursively and deletes them. 
+  
+   NOTE: Using ``npm install`` we can get **node_modules** anytime we want.
+   
+   - Print out a list of directories to be deleted:
+  
+      ```
+      find . -name 'node_modules' -type d -prune
+      ```
+   - Deletes *node_modules* from the current working directory:
+
+      ```
+      find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +
+      ```
+
+
 #### **Note:** `package.json`  is one of the most important file. As one of the main purpose is Here you can see all the related dependencies & modules which **node** is going to install. Also **`npm install`** command uses this `package.json` to download the essential modules and related dependencies to run React project.
+
 
 <br>
 
