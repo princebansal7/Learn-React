@@ -2,7 +2,7 @@ import React from "react";
 import Card from "./Card";
 import contacts from "../contacts.js";
 
-// 1. In App component => Card component have img property coming from contacts.js
+// 1. In App component => Card component have img prop which have value coming from contacts.js
 
 // Let's use Avatar component in App
 import Avatar from "./Avatar";

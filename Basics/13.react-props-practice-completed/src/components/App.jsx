@@ -2,10 +2,11 @@ import React from "react";
 import Card from "./Card";
 import contacts from "../contacts.js";
 
-// Here we are using contact.js to pass the values to props in Card component
+// Here we are using contact.js to pass the values to props in Card component (for clean coding)
 // We are using contact.js array to make the code more readable unlike we did in previous folder (12) !
 // But still using Array this way is lot of work, and there are many fancy way to avoid it, we'll see in that
 // in upcoming folders..
+// => Here Card props/attributes are: 'name','img','tel' and 'email'
 
 function App() {
   return (

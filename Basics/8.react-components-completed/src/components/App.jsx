@@ -13,7 +13,7 @@ import List from "./List";
 // 1. Code Readabiliy
 // 2. We can use the Components multiple times as many times as we want.
 // 3. We just have to import the componets which we will use in our jsx file.
-// NOTE:  when we use npx cretae-react-app 
+// NOTE:  when we use npx create-react-app 
 //        usually App.js or App.jsx is starting file of Reat app.
 
 function App() {
@@ -26,4 +26,5 @@ function App() {
   );
 }
 
+// we have to export the component too, so that in other files we can import them without error
 export default App;

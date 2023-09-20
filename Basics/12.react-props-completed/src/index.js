@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-// props => properties,y it is just a way to dynamically change the values in components
-// using "props" is mandatory
+// props => properties:  it is just a way to dynamically change and provide the values in components
+// using "props" keyword is mandatory
 // {props.name} => value is JS
 
 function Card(props) {
@@ -17,18 +17,18 @@ function Card(props) {
 }
 
 /* 
-  Here our Card functional component is taking various values as input.
-  these attributes in component can be named anything unlike HTML elements pre-determined attributes:-
-  like <input type="text" placeholder="enter name" value="Prince" />
-  so here, in input element, type, etc placeholder are predefined attributes
+   - Here our Card functional component is taking various values as input.
+     These attributes in component can be named anything (unlike HTML tags, who have pre-defined attributes):-
+     eg: <input type="text" placeholder="enter name" value="Prince" />
+     so here, in input tag have 'type', 'placeholder', 'value' etc which are predefined attributes
 
-  But in <Card/> we can use any name as attribute.
+  - But in <Card/> we can use any name as attribute.
 
-  This Code is repetative and Long. We will see in next folder (13) how we can make it more readable using components and Props
+    This Code is repetative and Long. We will see in next folder (13) how we can make it more readable using components and Props
 */
 
-/* 
-we can't apply className="my-style" in Custom component like:
+/*  NOTE:
+we can't apply style directly using className="my-style" in Custom component like that:
     <Card
       className="my-style"
       name="Prince"
@@ -36,7 +36,8 @@ we can't apply className="my-style" in Custom component like:
       tel="+123 456 789"
       email="M@prince.com"
     />
-    It won't work !! as it sees it as props and not as an html attribute
+    It won't work, because it sees it as 'props' and not as an 'html attribute'
+    To apply styles, go to Component definition and there use className in relevant HTML tags
 */
 ReactDOM.render(
   <div>
