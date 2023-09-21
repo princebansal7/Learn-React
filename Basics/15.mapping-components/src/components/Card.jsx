@@ -7,10 +7,10 @@ function Card(props) {
   return (
     <div className="card">
       <div className="top">
-        {/* Error, as we key is not for us to use */}
-        <p>{props.key}</p>
+        {/* Error, as 'key' is not for us to use, it's for react */}
+        {/* <p>{props.key}</p> */}
 
-        {/* So, we can use another prop name as we made 'id' in Card  */}
+        {/* So, we can use another prop name (we created named 'unique') to use array object key named 'id' in Card  */}
         <p>{props.unique}</p>
         <h2 className="name">{props.name}</h2>
 
