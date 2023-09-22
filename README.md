@@ -1,9 +1,9 @@
 # Learning React From Basics
 
-#### *Anyone can understand the folder structure and working of JSX and React from it*
+#### *Understand the folder structure and working of JSX and React*
 
 ##### PS: *`Node.js`* must be installed on your system!!
-- ##### Here is the link for `nvm` commands: <a href="https://github.com/princebansal7/Web-Dev-Basics/tree/main/ES6-JS" target="_blank">click</a>
+- ##### Here is the link for `nvm` commands: <a href="https://github.com/princebansal7/Learn-JavaScript#readme" target="_blank">click</a>
 ### 1. To use these folders locally:
 
 
@@ -48,7 +48,7 @@
 
 ### 2. Key Points:
 
-- To learn about ES6 Methods and Concepts in JavaScript: <a href="https://github.com/princebansal7/Web-Dev-Basics" target="_blank">Click here</a>
+- To learn about JavaScript ES6 Methods: <a href="https://github.com/princebansal7/Web-Dev-Basics/tree/main/ES6-JS" target="_blank">Click here</a>
 - **Let's Understand the FOLDER STRUCTURE:**
 
   At beginner level you only need to observe two folders
