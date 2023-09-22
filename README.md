@@ -13,13 +13,13 @@
    eg: `$ Downloads/Basics/1.introduction-to-jsx/`
 3. Then use command to install node_modules
 
-    ```
+    ```shell
     npm install
     ```
 
 4. Then
 
-    ```
+    ```shell
     npm start
     ```  
 
@@ -31,12 +31,12 @@
    
    - Print out a list of directories to be deleted:
   
-      ```
+      ```bash
       find . -name 'node_modules' -type d -prune
       ```
    - Deletes *node_modules* from the current working directory:
 
-      ```
+      ```bash
       find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +
       ```
 
