@@ -28,7 +28,7 @@ import Emojis from "../emojipedia.js";
 function createEntry(emojiObj) {
   return (
     <Entry
-      key={emojiObj.id}
+      key={emojiObj.id}  // have to make a prop named 'key' as we are using array and map()
       emj={emojiObj.emoji}
       name={emojiObj.name}
       means={emojiObj.meaning}
@@ -56,7 +56,7 @@ function App() {
         {/* <Entry
           emj={Emojis[0].emoji}
           name={Emojis[0].name}
-          means={Emojis[0.means}
+          means={Emojis[0].means}
         />
 
         <Entry

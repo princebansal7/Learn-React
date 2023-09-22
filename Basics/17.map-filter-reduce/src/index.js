@@ -1,5 +1,5 @@
 //========= Learning Looping using various methods==================
-
+// PS: To learn these ES6 Array helper methods, check out 'Web-Dev-Basics' Repository on my GitHub
 /*------------------------------
 
 var numbers = [3, 56, 2, 48, 5];
@@ -28,8 +28,8 @@ console.log(newNum);
 //##===== REACT============================
 
 /*------------------------------------------------------------------------------
-1.using Map - it Create a new array by doing something with each item in an array.
-// benefit of using map instead of foreach is, map itself return the value
+1.using Map - it Create a new array while performing some logic with each item in an array.
+// benefit of using map instead of foreach is, map itself returns the value
 
 numbers = [3, 56, 2, 48, 5];
 
@@ -58,7 +58,7 @@ console.log(newNum);
 
 /*---------------------------------------------------------------------------
 
-2.Filter -It Create a new array by keeping the items that return 'true'.
+2.Filter - It Create a new array by only keeping those items that return 'true' for applied logic.
 
 numbers = [3, 56, 2, 48, 5];
 
@@ -68,7 +68,7 @@ function isEven(x) {
   if (x % 2 === 0) return true;
   return false;
 }
-const newNum = numbers.filter(isEven); // filter only kept items in nee array which returned true
+const newNum = numbers.filter(isEven); // filter only kept items in the new array which returned true
 console.log(newNum);
 
 WAY-2:
@@ -154,7 +154,7 @@ import Emoji from "./emojipedia.js";
 // console.log(Emoji);
 
 const newMeaning = Emoji.map(function (SingleObj) {
-  return SingleObj.meaning.substring(0, 100);
+    return SingleObj.meaning.substring(0, 100);
 });
 
 console.log(newMeaning);
