@@ -48,7 +48,7 @@
 
 ### 2. Key Points:
 
-- To learn about JavaScript ES6 Methods: <a href="https://github.com/princebansal7/Web-Dev-Basics/tree/main/ES6-JS" target="_blank">Click here</a>
+- To learn about **JavaScript ES6** concepts and methods: <a href="https://github.com/princebansal7/Web-Dev-Basics/tree/main/ES6-JS" target="_blank">Click here</a>
 - **Let's Understand the FOLDER STRUCTURE:**
 
   At beginner level you only need to observe two folders
@@ -99,38 +99,10 @@
 - React newer version implementation starts from folder-15 (main changes will be done only in ``index.js``)
 
 
-- **In Folder-16:**
+- **From Folder-16:**
   
-    We'll be learning about **mapping** and creating basic ***``emojipedia``*** like this:
+    We'll be learning about **mapping** and creating basic ***``emojipedia``*** like this (ES6 Concepts must):
 
   <img align="right" alt="emoji-pedia" width="800" src="./images/emojipedia.png">
   &nbsp 
-
-- **In Folder-22:**
-    
-    We'll learn about states and there we'll explore the concept of *ES6 JavaScript Destructuring array.*
-
-
-    Here is the reference <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment" target="_blank">Link</a>
-    
-
-    sample snap:
-    
-    
-    <img align="center" alt="ES6-Destructuing" width="400" src="./images/DestructuringArrayES6.png">
-    
-
- - When we pass function as arugumet in another function or anywhere I guess then don't use paranthesis with function_name, just simply write function_name,
-  
-   eg:
-      ```js
-      function update(){
-        .....
-        .....
-      }
-
-      setInterval(update(),1000); // Won't work
-
-      setInterval(update,1000); // Works fine
-      ```
 
