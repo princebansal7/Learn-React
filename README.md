@@ -102,7 +102,8 @@
 - **From Folder-16:**
   
     We'll be learning about **mapping** and creating basic ***``emojipedia``*** like this (ES6 Concepts must):
-
   <img align="right" alt="emoji-pedia" width="800" src="./images/emojipedia-mbp.png">
+
+  <img align="right" alt="emoji-pedia" width="800" src="./images/emojipedia-mbp2.png">
   &nbsp 
 
