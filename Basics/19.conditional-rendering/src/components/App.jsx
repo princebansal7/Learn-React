@@ -44,7 +44,7 @@ currentTime>12 ? <h1>Working Late ?</h1> : null
 We Know the short circuit concept in && opertor (from c++)
 
  (Expression1 && Expression2)
-    false           true       => false (doesn't check doesn't condition if 1st is false)
+    false           true       => false (doesn't check 2nd condition if 1st is false)
 
 So, we can do something like:
 
