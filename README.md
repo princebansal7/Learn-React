@@ -48,7 +48,7 @@
 
 ### 2. Key Points:
 
-- To learn about **JavaScript ES6** concepts and methods: <a href="https://github.com/princebansal7/Web-Dev-Basics/tree/main/ES6-JS" target="_blank">Click here</a>
+- To learn about **JavaScript ES6** concepts and methods: <a href="https://github.com/princebansal7/Web-Development-Concepts/tree/main/javascript-es6" target="_blank">Click here</a>
 - **Let's Understand the FOLDER STRUCTURE:**
 
   At beginner level you only need to observe two folders
